@@ -1,0 +1,410 @@
+.body2{
+    text-align: center;
+    margin: 0px 2em;
+    font-family: arial;
+}
+
+input{
+    display: none;
+}
+
+.tag{
+    font-size: 20px;
+    margin: 1.5em 0px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    background: #efefef;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+#a7mdoni1{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni2{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni3{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni4{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni5{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni6{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+#a7mdoni7{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni8{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni9{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni10{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+#a7mdoni11{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni12{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+#a7mdoni13{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#a7mdoni14{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+
+
+
+
+/*filter CSS */
+
+ #mens:checked ~ .images > img:not([class*='mens']),
+ #women:checked ~ .images > img:not([class*='women']),
+ #boys:checked ~ .images > img:not([class*='boys']),
+ #girls:checked ~ .images > img:not([class*='girls']),
+ #children:checked ~ .images > img:not([class*='children']),
+ #babies:checked ~ .images > img:not([class*='babies'])
+ {
+   width: 0px;
+   height: 0px;
+}
+
+#all:checked ~ .all,
+#mens:checked ~ .tag1, 
+#women:checked ~ .tag2,
+#boys:checked ~ .tag3,
+#girls:checked ~ .tag4,
+#children:checked ~ .tag5,
+#babies:checked ~ .tag6
+{
+    background-color: #333333;      
+    color: white;
+} 
+
+
+
+#insta{
+    width: 130px;
+    height: 90px;
+    margin-top: -20px;
+}
+#doni:hover{
+    background-color:rgb(127, 238, 100);
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+    #doni1:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni2:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni3:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni4:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni5:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni6:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni7:hover{
+        background-color: rgb(108, 151, 186);
+        width: 100px;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni8:hover{
+        background-color: rgb(108, 151, 186);
+        width: 100px;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #doni9:hover{
+        background-color:rgb(127, 238, 100);
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #download{
+        
+        background-color: rgb(26, 238, 168);
+        text-align: center;
+        margin-top: px;
+        
+    }
+    
+    
+    #doni028{
+        margin: 0;
+        padding: 0;
+      }
+      #boddoni028{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      #doni028{
+        width: 130px;
+        height:30px ;
+        background-color: orangered;
+        color:white ;
+        border:2px solid orangered;
+        font-size:  18px;
+        font-family: sans-serif;
+        border-radius:  5px;  
+      }
+      #doni028:hover{
+        background-color:transparent ;
+        color: orangered;
+      }
+      .facebook_logo:hover{
+        border: 5px solid #3b5998;
+        box-shadow: 0 0 15px #3b5998;
+        transition: 0.5s;
+        border-radius: ;
+      }
+
+      .body2{
+        text-align: center;
+        margin: 0px 2em;
+        font-family: arial;
+    }
+    
+    input{
+        display: none;
+    }
+    
+    .tag{
+        font-size: 20px;
+        margin: 1.5em 0px;
+        padding: 5px 25px;
+        border-radius: 50px;
+        display: inline-block;
+        cursor: pointer;
+        background: #efefef;
+        text-decoration: none;
+        color: black;
+        border: 1px solid #ccc;
+    }
+    
+    #a7mdoni1{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni2{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni3{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni4{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni5{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni6{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    #a7mdoni7{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni8{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni9{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni10{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    #a7mdoni11{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni12{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    #a7mdoni13{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    #a7mdoni14{
+        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        transition: all .4s ease-in-out;
+    }
+    
+    
+    
+    
+    
+    /*filter CSS */
+    
+     #fish:checked ~ .images > img:not([class*='fish']),
+     #birds:checked ~ .images > img:not([class*='birds']),
+     #lion:checked ~ .images > img:not([class*='lion']),
+     #cats:checked ~ .images > img:not([class*='cats']),
+     #elephants:checked ~ .images > img:not([class*='elephants']),
+     #tigers:checked ~ .images > img:not([class*='tigers'])
+     {
+       width: 0px;
+       height: 0px;
+    }
+    
+    #all:checked ~ .all,
+    #fish:checked ~ .tag1, 
+    #birds:checked ~ .tag2,
+    #lion:checked ~ .tag3,
+    #cats:checked ~ .tag4,
+    #elephants:checked ~ .tag5,
+    #tigers:checked ~ .tag6
+    {
+        background-color: #10dc2b;      
+        color: white;
+    } 
+     
